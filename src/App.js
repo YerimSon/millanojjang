@@ -25,7 +25,7 @@ function App() {
     <div className="App">
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="/" className="title">Millano Shop</Navbar.Brand>
+        <Navbar.Brand onClick={() => navigate("/")}className="title">Millano Shop</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
