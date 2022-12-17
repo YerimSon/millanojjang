@@ -13,14 +13,14 @@ function ControlledCarousel() {
       <Carousel.Item className="carousel">
         <img
           className="d-block w-100"
-          src="/assets/carousel-etro.png"
+          src="https://yerimson.github.io/millanojjang/assets/carousel-etro.png"
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item className="carousel">
         <img
           className="d-block w-100"
-          src="/assets/carousel-prada.png"
+          src="https://yerimson.github.io/millanojjang/assets/carousel-prada.png"
           alt="Second slide"
         />
       </Carousel.Item>

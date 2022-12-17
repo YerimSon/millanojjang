@@ -20,7 +20,7 @@ function Detail(props) {
         <Container>
             <Row>
                   <Col md>
-                        <img src={'/assets/product'+(foundItem.id)+'.png'} width="100%" />
+                        <img src={'https://yerimson.github.io/millanojjang//assets/product'+(foundItem.id)+'.png'} width="100%" />
                   </Col>
                   <Col md>
                       <h4 className="pt-5">{foundItem.title}</h4>
@@ -42,7 +42,7 @@ function Detail(props) {
 
     <div>
         <div>
-            <img src={'/assets/prodesc'+(foundItem.id)+'.jpeg'}></img>
+            <img src={'https://yerimson.github.io/millanojjang//assets/prodesc'+(foundItem.id)+'.jpeg'}></img>
         </div>
     </div>
 

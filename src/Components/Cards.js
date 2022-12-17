@@ -10,7 +10,7 @@ function Cards(props) {
     return (
       <Col md>
       <Card style={{ width: '20rem', height: '30rem', marginTop: '10px'}}>
-        <Card.Img variant="top" src={'/assets/product'+(props.i)+'.png'} width="50%"/>
+        <Card.Img variant="top" src={'https://yerimson.github.io/millanojjang/assets/product'+(props.i)+'.png'} width="50%"/>
         <Card.Body>
           <Card.Title>{props.datas.title}</Card.Title>
           <Card.Text>
